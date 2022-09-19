@@ -1,0 +1,11 @@
+.wrapper {
+    @apply w-screen  h-screen bg-black text-white pt-2 
+}
+
+.content {
+    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold  mt-20
+}
+
+.items {
+    @apply flex justify-between  flex-wrap items-center xl:justify-between sm:justify-center
+}

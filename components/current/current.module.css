@@ -1,0 +1,11 @@
+.wrapper {
+    @apply bg-gray-700 text-white w-screen h-screen
+}
+
+.day {
+    @apply  text-start w-max px-10
+}
+
+.info {
+    @apply text-2xl font-bold p-2 tracking-wide
+}

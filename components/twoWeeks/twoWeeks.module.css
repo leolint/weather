@@ -1,0 +1,11 @@
+.wrapper {
+    @apply w-screen h-max bg-gray-600 text-white pt-2
+}
+
+.content {
+    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold w-2/5
+}
+
+.items {
+    @apply flex flex-wrap xl:justify-between sm:justify-center
+}
