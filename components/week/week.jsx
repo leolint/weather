@@ -12,8 +12,6 @@ function Week() {
         <div className={styles.wrapper}>
             <div className='container m-auto'>
                 <div className={styles.items}>
-
-
                     {forecast && forecast?.forecastday.slice(0, 7).map((item, index) =>
                         <div className={styles.content}>
                             <img src={item.day.condition.icon} alt="" />

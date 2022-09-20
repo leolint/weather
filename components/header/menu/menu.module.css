@@ -1,14 +1,18 @@
 .wrapper {
-    @apply inline-flex w-max h-8
+    @apply flex w-full h-8 
 }
 
 
 .button_span {
-    @apply block w-10 h-1 bg-black m-1 relative
+    @apply block w-10 h-1 bg-black m-0.5 
+}
+
+.button {
+    @apply p-4 flex flex-col items-end relative
 }
 
 .menu {
-    @apply text-center w-full hidden absolute flex-col pt-10 right-0 top-0 bg-green-700 text-white w-screen
+    @apply absolute left-0 top-0 text-center w-full hidden flex-col pt-10  bg-green-700 text-white 
 }
 
 .link {

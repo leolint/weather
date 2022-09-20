@@ -23,9 +23,7 @@ function TwoWeeks() {
                             <p>Шанс дождя : {item.day.daily_chance_of_rain}</p>
                         </div>)}
                 </div>
-
             </div>
-
         </div>
     );
 }

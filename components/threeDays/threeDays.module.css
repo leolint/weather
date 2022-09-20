@@ -3,9 +3,9 @@
 }
 
 .content {
-    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold  mt-20
+    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold  
 }
 
 .items {
-    @apply flex justify-between  flex-wrap items-center xl:justify-between sm:justify-center
+    @apply flex justify-between  flex-wrap items-center md:justify-center
 }

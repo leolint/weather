@@ -3,9 +3,9 @@
 }
 
 .content {
-    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold
+    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold 
 }
 
 .items {
-    @apply flex justify-around flex-wrap items-center
+    @apply flex justify-around flex-wrap 
 }

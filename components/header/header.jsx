@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <div className={styles.wrapper}>
-      <div>
+      <div className={styles.content}>
         <h1 className={styles.title}>
           Weather
         </h1>
