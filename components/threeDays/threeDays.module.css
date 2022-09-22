@@ -1,11 +1,15 @@
 .wrapper {
-    @apply w-screen  h-screen bg-black text-white pt-2 
+    @apply max-w-full  h-max bg-black text-white pt-2 
 }
 
 .content {
-    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold  
+    @apply border-sky-200 border-2 p-2 mb-2 text-2xl font-bold mt-5 transition-transform sm:w-80
+}
+
+.content:hover {
+    @apply bg-gray-600 border-blue-500 transition-transform scale-110
 }
 
 .items {
-    @apply flex justify-between  flex-wrap items-center md:justify-center
+    @apply flex justify-around  flex-wrap items-center md:justify-center
 }

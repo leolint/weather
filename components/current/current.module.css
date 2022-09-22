@@ -1,9 +1,9 @@
 .wrapper {
-    @apply bg-gray-700 text-white w-full h-screen
+    @apply bg-gray-700 text-white max-w-full h-screen
 }
 
 .day {
-    @apply  text-start w-max px-10 sm:pt-5
+    @apply  text-start w-max pt-10 px-10 sm:pt-5
 }
 
 .info {
