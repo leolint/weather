@@ -1,16 +1,19 @@
 import styles from '../threeDays/threeDays.module.css'
-import Current from '../current/current';
-import { useDispatch, useSelector } from 'react-redux';
+import { menuSwitch } from '../../store/menuSlice';
+import { useDispatch , useSelector } from 'react-redux';
 
 
 function ThreeDays() {
 
     const { forecast } = useSelector(state => state.weather.data)
 
+    const active = useSelector(state => state.menu.isMenuActive);
+    const dispatch = useDispatch();
+
     console.log(forecast);
 
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} onClick={() => dispatch(menuSwitch(false))}>
             <div className='container m-auto'>
                 <div className={styles.items}>
                 {forecast && forecast?.forecastday.slice(0, 3).map((item, index) =>

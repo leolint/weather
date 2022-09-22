@@ -1,4 +1,5 @@
-import styles from '../week/week.module.css'
+import styles from '../week/week.module.css';
+import { menuSwitch } from '../../store/menuSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 
@@ -6,10 +7,11 @@ function Week() {
 
     const { forecast } = useSelector(state => state.weather.data)
 
-    console.log(forecast);
+    const active = useSelector(state => state.menu.isMenuActive);
+    const dispatch = useDispatch();
 
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} onClick={() => dispatch(menuSwitch(false))}>
             <div className='container m-auto'>
                 <div className={styles.items}>
                     {forecast && forecast?.forecastday.slice(0, 7).map((item, index) =>

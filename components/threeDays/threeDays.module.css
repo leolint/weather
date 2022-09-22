@@ -1,5 +1,5 @@
 .wrapper {
-    @apply max-w-full  h-max bg-black text-white pt-2 
+    @apply max-w-full  h-screen bg-black text-white pt-2 
 }
 
 .content {
