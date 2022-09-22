@@ -3,9 +3,9 @@
 }
 
 .day {
-    @apply  text-start w-max pt-10 px-10 sm:pt-5
+    @apply  text-start w-max pt-10 pl-7
 }
 
 .info {
-    @apply text-2xl font-bold p-2 tracking-wide
+    @apply text-2xl font-bold p-2 tracking-wide sm:w-80
 }
